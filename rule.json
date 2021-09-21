@@ -37,7 +37,7 @@
   "id": "dns33",
   "name": "搜多多",
   "url": "https://duo33.today/",
-  "icon": "https://duo33.today/favicon.ico",
+  "icon": "https://i.loli.net/2021/04/20/MQtNxhdTls2pSou.png",
   "paths": {
     "preset": "/search-{k}-rel-{p}.html?",
     "size": "/search-{k}-size-{p}.html",
@@ -73,9 +73,9 @@
   },
 {
   "id": "yun55",
-  "name": "搜一下 ",
+  "name": "搜一下",
   "url": "https://c2.fan55.top/",
-  "icon": "https://c2.fan55.top/favicon.ico",
+  "icon": "https://i.loli.net/2021/04/30/7Hz3sTYgOU1vhP9.png",
   "paths": {
     "preset": "/s?word={k}",
     "size": "/s?word={k}&sort=size",
@@ -83,10 +83,10 @@
     "time": "/s?word={k}&sort=date"
   },
   "xpath": {
-    "group": "//ul[@id='05a527d916d55489ed7aa3e4fd6db1dae24ace8b']",
-    "magnet": "./li[1]/h3[1]/a[1]/@href",
-    "name": "./li[1]/h3[1]/a[1]",
-    "size": "./li[12]/span[2]",
+    "group": "//ul[@class='list-unstyled']",
+    "magnet": "./li[1]/a[1]/@href",
+    "name": "./li[1]/a[1]",
+    "size": "./li[3]/span[2]",
     "date": "./li[2]/span[3]",
     "hot": "./li[2]/span[4]"
   }
