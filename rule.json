@@ -70,5 +70,5 @@
         "files": "//div[@class=\"detail data-list\"]/div/text()"
       }
     }
-  },
+  }
 ]
