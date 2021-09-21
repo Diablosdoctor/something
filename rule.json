@@ -71,16 +71,26 @@
       }
     }
   },
-  {
-    "id": "bt4g",
-    "name": "BT4G",
-    "proxy": true,
-    "url": "https://bt4g.org",
-    "paths": {
-      "time": "/search/{k}/{p}",
-      "size": "/search/{k}/bysize/{p}",
-      "hot": "/search/{k}/byrequests/{p}"
-    },
+{
+  "id": "yun55",
+  "name": "搜一下 ",
+  "url": "https://c2.fan55.top/",
+  "icon": "https://c2.fan55.top/favicon.ico",
+  "paths": {
+    "preset": "/s?word={k}",
+    "size": "/s?word={k}&sort=size",
+    "hot": "/s?word={k}&sort=viewnum",
+    "time": "/s?word={k}&sort=date"
+  },
+  "xpath": {
+    "group": "//ul[@id='05a527d916d55489ed7aa3e4fd6db1dae24ace8b']",
+    "magnet": "./li[1]/h3[1]/a[1]/@href",
+    "name": "./li[1]/h3[1]/a[1]",
+    "size": "./li[12]/span[2]",
+    "date": "./li[2]/span[3]",
+    "hot": "./li[2]/span[4]"
+  }
+},
     "xpath": {
       "group": "/html/body/main/div/div[3]/div/div",
       "magnet": "./h5/a/@href",
