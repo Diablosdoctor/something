@@ -34,25 +34,24 @@
   }
 },
   {
-    "id": "idope",
-    "name": "idope",
-    "proxy": true,
-    "url": "https://idope.cyou",
-    "paths": {
-      "preset": "/torrent-list/{k}/?p={p}",
-      "size": "/torrent-list/{k}/?p={p}&o=-2"
-    },
-    "xpath": {
-      "group": "//div[@class=\"resultdiv\"]",
-      "magnet": "./div[1]/a/@href",
-      "name": "./div[1]/a",
-      "size": "./div[2]/div[3]/div[2]",
-      "date": "./div[2]/div[2]/div[2]",
-      "detail": {
-        "files": "//div[@class=\"filetag\"]"
-      }
-    }
+  "id": "dns33",
+  "name": "搜多多",
+  "url": "https://duo2.dns33.top:39988",
+  "icon": "https://duo2.dns33.top:39988/favicon.ico",
+  "paths": {
+    "preset": "/search-{k}-rel-{p}.html?",
+    "size": "/search-{k}-size-{p}.html",
+    "time": "/search-{k}-date-{p}.html"
   },
+  "xpath": {
+    "group": "//div[@class='ssbox']",
+    "magnet": "./div[2]/span[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[2]/span[3]/b[1]",
+    "date": "./div[2]/span[2]/b[1]",
+    "hot": "./div[2]/span[5]/b[1]"
+  }
+},
   {
     "id": "btsow",
     "name": "BTSOW",
