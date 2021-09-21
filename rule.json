@@ -21,7 +21,7 @@
   "id": "cili-xingqiu",
   "name": "磁力星球",
   "url": "https://cili-xingqiu.com",
-  "icon": "https://cili-xingqiu.com/favicon.ico",
+  "icon": "https://cili-xingqiu.com/img/logo.png",
   "paths": {
     "preset": "/s/{k}"
   },
