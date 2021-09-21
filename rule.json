@@ -36,8 +36,8 @@
   {
   "id": "dns33",
   "name": "搜多多",
-  "url": "https://duo2.dns33.top:39988",
-  "icon": "https://duo2.dns33.top:39988/favicon.ico",
+  "url": "https://duo33.today/",
+  "icon": "https://duo33.today/favicon.ico",
   "paths": {
     "preset": "/search-{k}-rel-{p}.html?",
     "size": "/search-{k}-size-{p}.html",
