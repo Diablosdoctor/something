@@ -1,22 +1,22 @@
 [
-  {
-    "id": "zhongzisou",
-    "name": "种子搜",
-    "proxy": true,
-    "url": "https://m.zhongziso19.xyz",
-    "paths": {
-      "time": "/list/{k}/{p}",
-      "size": "/list_length/{k}/{p}",
-      "hot": "/list_click/{k}/{p}"
-    },
-    "xpath": {
-      "group": "//div[@class='panel-body']/ul",
-      "magnet": "./li[1]/a/@href",
-      "name": "./li[1]/a",
-      "size": "./li[2]/dl[1]/dd[2]",
-      "date": "./li[2]/dl[1]/dd[3]"
-    }
+{
+  "id": "zhongziso19",
+  "name": "种子搜",
+  "url": "https://m.zhongziso19.xyz",
+  "icon": "https://m.zhongziso19.xyz/favicon.ico",
+  "paths": {
+    "preset": "/list/{k}/{p}",
+    "size": "/list_length/{k}/{p}"
   },
+  "xpath": {
+    "group": "//ul[@class='list-group']",
+    "magnet": "./li[1]/a[1]/@href",
+    "name": "./li[1]/a[1]",
+    "size": "./li[2]/dl[1]/dd[2]",
+    "date": "./li[2]/dl[1]/dd[3]",
+    "hot": "./li[1]/a[1]/span[1]"
+  }
+},
 {
   "id": "cili-xingqiu",
   "name": "磁力星球",
