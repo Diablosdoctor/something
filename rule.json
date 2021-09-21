@@ -18,22 +18,19 @@
     }
   },
 {
-  "id": "clg88",
-  "name": " 磁力狗",
-  "url": "http://clg88.xyz",
-  "icon": "http://clg88.xyz/favicon.ico",
+  "id": "cili-xingqiu",
+  "name": "磁力星球",
+  "url": "https://cili-xingqiu.com",
+  "icon": "https://cili-xingqiu.com/favicon.ico",
   "paths": {
-    "preset": "/search?word={k}",
-    "time": "/search?word={k}&sort=time",
-    "size": "/search?word={k}&sort=length"
+    "preset": "/s/{k}"
   },
   "xpath": {
-    "group": "//body/div[1]/div[2]/div[2]/ul[1]/li[3]",
-    "magnet": "./div[1]/div[1]/a[1]/@href",
-    "name": "./div[1]/div[1]/a[1]",
-    "size": "./div[2]",
-    "date": "./div[2]",
-    "hot": "./div[2]/span[1]"
+    "group": "//div[@class='related-article']",
+    "magnet": "./h1[1]/a[1]/@href",
+    "name": "./h1[1]/a[1]",
+    "size": "./div[1]/p[1]/b[2]",
+    "date": "./div[1]/p[1]/b[1]"
   }
 },
   {
