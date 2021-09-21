@@ -91,17 +91,6 @@
     "hot": "./li[2]/span[4]"
   }
 },
-    "xpath": {
-      "group": "/html/body/main/div/div[3]/div/div",
-      "magnet": "./h5/a/@href",
-      "name": "./h5/a",
-      "size": "./span[4]/b",
-      "date": "./span[2]/b",
-      "detail": {
-        "files": "//*[@id=\"wall\"]/div[6]/div[2]/ol/li"
-      }
-    }
-  },
   {
     "id": "btdiguo",
     "name": "BT目录",
