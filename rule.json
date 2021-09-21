@@ -34,6 +34,25 @@
   }
 },
   {
+  "id": "bthub46",
+  "name": " BThub ",
+  "url": "https://bthub46.xyz",
+  "icon": "https://bthub46.xyz/static/logo_s.png",
+  "paths": {
+    "preset": "/cn/search/kw-{k}-{p}.html",
+    "size": "/cn/search/kw-{k}-length-{p}.html",
+    "time": "/cn/search/kw-{k}-time-{p}.html"
+  },
+  "xpath": {
+    "group": "//div[@class='search-item detail-width']",
+    "magnet": "./div[1]/h3[1]/a[1]/@href",
+    "name": "./div[1]/h3[1]/a[1]",
+    "size": "./div[3]/span[1]/b[1]",
+    "date": "./div[3]/span[2]/b[1]",
+    "hot": "./div[3]/span[3]/b[1]"
+  }
+},
+  {
   "id": "dns33",
   "name": "搜多多",
   "url": "https://duo2.dns33.top:39988",
